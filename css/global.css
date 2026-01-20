@@ -1,0 +1,45 @@
+body {
+  font-family: "Fira Sans", "Arial", sans-serif;
+  margin: 0px;
+  color: #090909;
+  background: #f8f8f8;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+}
+
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+.subtitulo span {
+  color: #ff3838;
+}
+
+@media (max-width: 1000px) {
+  .subtitulo {
+    font-size: 4rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
