@@ -38,7 +38,7 @@ img {
 
 @media (max-width: 1000px) {
   .subtitulo {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-transform: capitalize;
     max-width: initial !important;
   }
