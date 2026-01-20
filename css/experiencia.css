@@ -86,8 +86,19 @@
     grid-template-columns: 1fr;
     gap: 40px;
   }
+  .experiencia > div {
+    display: contents;
+  }
+  .experiencia-texto {
+    order: -2;
+    margin-bottom: 30px;
+  }
   .experiencia .subtitulo {
     color: #545454;
+    order: -1;
+  }
+  .experiencia .empresa {
+    order: 0;
   }
 }
 
